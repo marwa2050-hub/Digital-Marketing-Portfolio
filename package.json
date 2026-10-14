@@ -1,8 +1,8 @@
 {
-  "name": "developer-portfolio-part-4",
+  "name": "digital-marketing-portfolio",
   "version": "1.0.0",
   "private": false,
-  "homepage": "https://marwa2050-hub.github.io/Developer-Portfolio-Part-4/",
+  "homepage": "https://marwa2050-hub.github.io/Digital-Marketing-Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
