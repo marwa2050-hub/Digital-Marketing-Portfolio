@@ -3,37 +3,35 @@ import "./AboutPage.css";
 import profilePic from "../assets/profile2.jpg";
 
 const statsData = [
-  { id: 1, label: "Projects", value: 12 },
-  { id: 2, label: "Clients", value: 7 },
-  { id: 3, label: "Experience (yrs)", value: 3 },
+  { id: 1, label: "Projects", value: 3 },
+  { id: 2, label: "Clients", value: 2 },
+  { id: 3, label: "Experience (yrs)", value: 1 },
 ];
 
 const skills = [
-  { name: "React", level: 90 },
-  { name: "JavaScript", level: 85 },
-  { name: "HTML", level: 95 },
-  { name: "CSS", level: 90 },
-  { name: "Tailwind", level: 80 },
-  { name: "Framer Motion", level: 75 },
-  { name: "Git", level: 85 },
-  { name: "Vite", level: 70 },
+  { name: "Canva", level: 90 },
+  { name: "Photoshop", level: 80 },
+  { name: "Adobe Express", level: 85 },
+  { name: "Premiere Pro", level: 70 },
+  { name: "Social Media Design", level: 85 },
+  { name: "Video Editing", level: 75 },
+  { name: "Copywriting", level: 75 },
+  { name: "AI Tools", level: 80 },
 ];
 
 const hobbies = [
-  { name: "Reading", emoji: "📖" },
-  { name: "Photography", emoji: "📸" },
-  { name: "Traveling", emoji: "✈️" },
-  { name: "Gaming", emoji: "🎮" },
-  { name: "Music", emoji: "🎵" },
-  { name: "Cooking", emoji: "🍳" },
+  { name: "Design", emoji: "🎨" },
+  { name: "Home Aesthetics", emoji: "🏡" },
+  { name: "Skincare & DIY Beauty", emoji: "🧴" },
+  { name: "Learning New Tools", emoji: "💡" },
 ];
 
 const timeline = [
-  { year: "2023", event: "Started Front-end Journey" },
-  { year: "2024", event: "Completed 5 freelance projects" },
-  { year: "2025", event: "Built personal portfolio & professional projects" },
+  { year: "2025", event: "Completed a web development bootcamp" },
+  { year: "2025", event: "Designed Amazon listing visuals for Urban London and Cassia London" },
+  { year: "2026", event: "Joined the WRF Digital Marketing and AI Fellowship" },
+  { year: "2026", event: "Created the Marwa Coffee brand concept and Marwa Design Studio on Instagram" },
 ];
-
 const AboutPage = () => {
   const [animatedStats, setAnimatedStats] = useState(statsData.map(() => 0));
   const [animatedSkills, setAnimatedSkills] = useState(skills.map(() => 0));
@@ -54,12 +52,12 @@ const AboutPage = () => {
         {/* Left Column */}
         <div className="about-left">
           <h2 className="title">About Me</h2>
-          <p className="intro">
-            Hi! I'm Marwa, a front-end developer building responsive and elegant apps with React.
-          </p>
-          <p className="goals">
-            <strong>Goals:</strong> Create accessible, production-ready projects; master React patterns; improve UI/UX design.
-          </p>
+         <p className="intro">
+  Hi, I'm Marwa, a digital marketer and designer. I create social media content, product visuals and brand designs, and I edit short videos. I taught myself graphic design, and I enjoy turning an idea into something people want to look at.
+</p>
+<p className="goals">
+  <strong>Goals:</strong> Grow as a digital marketer, take on more brand and e-commerce projects, and keep improving my design, video and strategy skills.
+</p>
 
           {/* Stats */}
           <div className="stats-grid">
