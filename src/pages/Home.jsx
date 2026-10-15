@@ -44,7 +44,7 @@ const Home = () => {
       >
         <h2>My Certificates</h2>
         <div className="certificates-grid">
-          {[certificate1, certificate2, certificate3].map((img, i) => (
+         {certificates.map((img, i) => (
             <div key={i} className="certificate-card">
               <img src={img} alt={`Certificate ${i+1}`} />
             </div>
