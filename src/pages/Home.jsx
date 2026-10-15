@@ -61,9 +61,9 @@ const Home = () => {
       >
         <h2>What I Do</h2>
         <div className="services-grid">
-          <div className="service-card">💻 Frontend Development</div>
-          <div className="service-card">🔒 Cybersecurity</div>
-          <div className="service-card">⚙️ Project Management / Graphic Design</div>
+        <div className="service-card">🎨 Social Media Design</div>
+<div className="service-card">🎬 Video Editing & Reels</div>
+<div className="service-card">📈 Content & Campaign Strategy</div>
         </div>
       </motion.section>
 
@@ -76,12 +76,14 @@ const Home = () => {
       >
         <h2>Tech Stack</h2>
         <div className="tech-grid">
-          <div className="tech-card">HTML</div>
-          <div className="tech-card">CSS</div>
-          <div className="tech-card">JavaScript</div>
-          <div className="tech-card">React</div>
-          <div className="tech-card">Git</div>
-          <div className="tech-card">Figma</div>
+         <div className="tech-card">Canva</div>
+<div className="tech-card">Adobe Express</div>
+<div className="tech-card">Adobe Premiere Pro</div>
+<div className="tech-card">CapCut</div>
+<div className="tech-card">Figma</div>
+<div className="tech-card">Meta Business Suite</div>
+<div className="tech-card">Google Analytics</div>
+<div className="tech-card">AI Tools</div>
         </div>
       </motion.section>
 
