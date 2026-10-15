@@ -77,6 +77,8 @@ const Home = () => {
         <h2>Tech Stack</h2>
         <div className="tech-grid">
          <div className="tech-card">Canva</div>
+<div className="tech-card">Canva</div>
+<div className="tech-card">Adobe Photoshop</div>
 <div className="tech-card">Adobe Express</div>
 <div className="tech-card">Adobe Premiere Pro</div>
 <div className="tech-card">CapCut</div>
@@ -94,8 +96,8 @@ const Home = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
       >
-        <div className="funfact-card">🕒 3+ Years of Experience</div>
-        <div className="funfact-card">🚀 15+ Completed Projects</div>
+        <div className="funfact-card">🕒 2+ Years of Experience</div>
+        <div className="funfact-card">🚀 100+ Completed Projects</div>
         <div className="funfact-card">☕ 1000+ Cups of Coffee</div>
       </motion.section>
 
