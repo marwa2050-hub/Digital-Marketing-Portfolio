@@ -3,17 +3,16 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Hero from "./Hero";
 import "./Home.css";
-import certificate1 from "../assets/certificate1.jpg";
-import certificate2 from "../assets/certificate2.jpg";
-import certificate3 from "../assets/certificate3.jpg";
+const certificateModules = import.meta.glob("../assets/certificates/*.{jpg,jpeg,png}", { eager: true, import: "default" });
+const certificates = Object.values(certificateModules);
 
 const Home = () => {
   const quotes = [
-    "Code is like humor. When you have to explain it, it’s bad.",
-    "The best error message is the one that never shows up.",
-    "First, solve the problem. Then, write the code.",
-    "Dream big, work hard, and code smart."
-  ];
+  "Good design gets attention, and clear words keep it.",
+  "A strong campaign starts with knowing who you are talking to.",
+  "Every post should give people a reason to stop scrolling.",
+  "Consistency builds trust, and trust builds a brand."
+];
   const [quote, setQuote] = useState(quotes[0]);
 
   useEffect(() => {
