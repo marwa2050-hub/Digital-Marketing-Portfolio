@@ -77,7 +77,6 @@ const Home = () => {
         <h2>Tech Stack</h2>
         <div className="tech-grid">
          <div className="tech-card">Canva</div>
-<div className="tech-card">Canva</div>
 <div className="tech-card">Adobe Photoshop</div>
 <div className="tech-card">Adobe Express</div>
 <div className="tech-card">Adobe Premiere Pro</div>
