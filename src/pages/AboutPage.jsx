@@ -3,9 +3,9 @@ import "./AboutPage.css";
 import profilePic from "../assets/profile2.jpg";
 
 const statsData = [
-  { id: 1, label: "Projects", value: 3 },
-  { id: 2, label: "Clients", value: 2 },
-  { id: 3, label: "Experience (yrs)", value: 1 },
+  { id: 1, label: "Projects", value: +50 },
+  { id: 2, label: "Clients", value: +5 },
+  { id: 3, label: "Experience (yrs)", value: 3 },
 ];
 
 const skills = [
