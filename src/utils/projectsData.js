@@ -1,6 +1,7 @@
 import project1Img from "../assets/project1.jpg";
 import project2Img from "../assets/project2.jpg";
 import project3Img from "../assets/project3.jpg";
+import project4Img from "../assets/project4.jpg";
 
 const projectsData = [
   {
@@ -29,6 +30,7 @@ const projectsData = [
     techStack: ["Social Media", "Video Editing", "Visual Identity"],
     featured: false,
     liveLink: "https://drive.google.com/drive/folders/1gWvoLAK8O3WZ3fA5bpUY_21Pk3oRIDU8?usp=drive_link",
+    instagramLink: "https://www.instagram.com/marwa.design.studio/",
     date: "2026"
   },
   {
@@ -43,6 +45,20 @@ const projectsData = [
     techStack: ["Branding", "Menu Design", "Social Media"],
     featured: false,
     liveLink: "https://drive.google.com/drive/folders/14x792KchxmrYN_GsX4R7MQR0PQtosWP8?usp=drive_link",
+    date: "2026"
+  },
+  {
+    id: 4,
+    name: "Mock Campaign",
+    title: "Denim, Redefined: Mock Marketing Campaign",
+    role: "Campaign Designer",
+    image: project4Img,
+    problem: "As part of a module in my WRF digital marketing fellowship, I was asked to plan a full marketing campaign for a well-known fashion brand. This is a mock campaign and it is not affiliated with the brand.",
+    solution: "I built a campaign called Denim, Redefined and created five deliverables that share one look and one message.",
+    outcome: "A complete campaign concept that shows how I plan a message and carry it consistently across different formats.",
+    techStack: ["Campaign Strategy", "Social Media", "Branding"],
+    featured: false,
+    liveLink: "https://drive.google.com/drive/folders/1Y6crfYyslbW0JFjEs4XMhPu7WE1dZRR4?usp=drive_link",
     date: "2026"
   }
 ];
