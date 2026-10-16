@@ -30,7 +30,7 @@ const projectsData = [
     techStack: ["Social Media", "Video Editing", "Visual Identity"],
     featured: false,
     liveLink: "https://drive.google.com/drive/folders/1gWvoLAK8O3WZ3fA5bpUY_21Pk3oRIDU8?usp=drive_link",
-    instagramLink: "https://www.instagram.com/marwa.design.studio/",
+    instagramLink: "https://www.instagram.com/marwa.design.studio?mdxt=cmg1enNxMXdhZ2Nh&utm_source=qr",
     date: "2026"
   },
   {
