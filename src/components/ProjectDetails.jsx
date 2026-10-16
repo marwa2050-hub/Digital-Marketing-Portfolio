@@ -24,25 +24,26 @@ const ProjectDetails = () => {
       <section className="problem-solution">
         <div className="section-item">
           <h3>Problem</h3>
-          <p>{project.problem || "—"}</p>
+          <p>{project.problem || "-"}</p>
         </div>
         <div className="section-item">
           <h3>Solution</h3>
-          <p>{project.solution || "—"}</p>
+          <p>{project.solution || "-"}</p>
         </div>
         <div className="section-item">
           <h3>Outcome</h3>
-          <p>{project.outcome || "—"}</p>
+          <p>{project.outcome || "-"}</p>
         </div>
       </section>
 
       <div className="detail-meta">
-        <div><strong>Tech Stack:</strong> {project.techStack.join(", ")}</div>
+        <div><strong>Skills & Tools:</strong> {project.techStack.join(", ")}</div>
         {project.date && <div><strong>Date:</strong> {project.date}</div>}
       </div>
 
       <div className="detail-links">
-        {project.liveLink && <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn">Live Demo</a>}
+        {project.liveLink && <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn">View Work</a>}
+        {project.instagramLink && <a href={project.instagramLink} target="_blank" rel="noreferrer" className="btn">Instagram</a>}
         {project.codeLink && <a href={project.codeLink} target="_blank" rel="noreferrer" className="btn">View Code</a>}
       </div>
 
@@ -52,3 +53,4 @@ const ProjectDetails = () => {
 };
 
 export default ProjectDetails;
+</parameter>
