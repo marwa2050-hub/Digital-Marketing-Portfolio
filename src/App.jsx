@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
+import Graphics from "./pages/Graphics";
 import ContactForm from "./components/ContactForm";
 import FeedbackForm from "./components/FeedbackForm";
 import NotFound from "./components/NotFound";
@@ -69,6 +70,14 @@ function App() {
                 element={
                   <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                     <ProjectDetails />
+                  </motion.div>
+                }
+              />
+              <Route
+                path="/graphics"
+                element={
+                  <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+                    <Graphics />
                   </motion.div>
                 }
               />
