@@ -31,6 +31,9 @@ function Navbar({ theme, onThemeChange }) {
           <NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""}>Projects</NavLink>
         </li>
         <li>
+          <NavLink to="/graphics" className={({ isActive }) => isActive ? "active" : ""}>Graphics</NavLink>
+        </li>
+        <li>
           <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink>
         </li>
         <li>
