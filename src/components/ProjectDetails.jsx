@@ -42,7 +42,7 @@ const ProjectDetails = () => {
       </div>
 
       <div className="detail-links">
-        {project.liveLink && <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn">View Work</a>}
+        {project.liveLink && <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn">{project.linkLabel || "View Work"}</a>}
         {project.instagramLink && <a href={project.instagramLink} target="_blank" rel="noreferrer" className="btn">Instagram</a>}
         {project.codeLink && <a href={project.codeLink} target="_blank" rel="noreferrer" className="btn">View Code</a>}
       </div>
