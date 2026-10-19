@@ -68,7 +68,7 @@ const ProjectCard = ({ project }) => {
           <div className="project-links">
             {project.liveLink && (
               <a href={project.liveLink} target="_blank" rel="noreferrer" className="live-btn">
-                View Work
+                {project.linkLabel || "View Work"}
               </a>
             )}
             {project.instagramLink && (
