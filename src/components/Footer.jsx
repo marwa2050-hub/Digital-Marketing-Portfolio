@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
@@ -11,6 +11,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/marwa-noorestani-b8573a2a8" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
         <a href="https://www.instagram.com/marwa.design.studio/" target="_blank" rel="noreferrer" aria-label="Instagram"><FaInstagram /></a>
         <a href="https://www.youtube.com/@MarwaNoorestani" target="_blank" rel="noreferrer" aria-label="YouTube"><FaYoutube /></a>
+        <a href="https://www.tiktok.com/@marwa.design.studio" target="_blank" rel="noreferrer" aria-label="TikTok"><FaTiktok /></a>
         <a href="mailto:marwanurestani@gmail.com" aria-label="Email"><FaEnvelope /></a>
       </div>
       <p>© {year} Marwa | All Rights Reserved</p>
